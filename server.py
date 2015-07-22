@@ -7,8 +7,8 @@ from bottle import route, run, template, request
 url = 'https://accounts.coursera.org/oauth2/v1/auth'
 url1 = 'https://accounts.coursera.org/oauth2/v1/token'
 
-CLIENT_ID = "S4z1dv7EMJgm_HoQv_p1UQ"
-CLIENT_SECRET = "uuKKV8jTgTd8muHJrJyvtw"
+CLIENT_ID = ""
+CLIENT_SECRET = ""
 REDIRECT_URI = "http://localhost:41812/callback"
 access_token = None
 nonce = None
